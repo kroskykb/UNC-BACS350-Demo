@@ -6,7 +6,7 @@
 
     $site_title = 'UNC BACS 350';
     
-    $page_title = "Mark's Brain";
+    $page_title = "The Seaman's Brain";
     
     $content = '
         <p>
@@ -24,30 +24,18 @@
         
         <ul>
             <li>
-                <a href="01">Lesson #1 - PHP App Hosting</a>
+                <a href="demo">Code Demos</a>
             </li>
             <li>
-                <a href="02">Lesson #2 - Includes</a>
+                <a href="pattern">Design Patterns</a>
             </li>
             <li>
-                <a href="03">Lesson #3 - Header/Footer</a>
-            </li>
-            <li>
-                <a href="04">Lesson #4 - Page Template</a>
-            </li>
-            <li>
-                <a href="05">Lesson #5 - Render Page</a>
-            </li>
-            <li>
-                <a href="06">Lesson #6 - Setup Apache, MySQL, PHP</a>
-            </li>
-            <li>
-                <a href="07">Lesson #7 - Card View</a>
+                <a href="project">Projects</a>
             </li>
         </ul>
     ';
 
-    include '../views.php';
+    include 'views.php';
     
     echo render_page($site_title, $page_title, $content);
 
