@@ -65,6 +65,26 @@
             <li>
                 <a href="14">Demo #14 - Document Browser</a>
             </li>
+
+            <li>
+                <a href="15">Demo #15 - Database</a>
+            </li>
+            <li>
+                <a href="16">Demo #16 - Database connect from PHP</a>
+            </li>
+            <li>
+                <a href="17">Demo #17 - List Database Records</a>
+            </li>
+            <li>
+                <a href="18">Demo #18 - Database CRUD</a>
+            </li>
+            <li>
+                <a href="19">Demo #19 - CRUD Functions</a>
+            </li>
+            <li>
+                <a href="20">Demo #20 - CRUD Views</a>
+            </li>
+
         </ul>
     ';
 
