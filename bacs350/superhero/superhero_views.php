@@ -13,7 +13,7 @@
                 <p><label>Photo:</label> &nbsp; <input type="text" name="image"></p>
                 <p><label>Description:</label> &nbsp; 
                 <textarea name="description">Text goes here.</textarea></p>
-                <p><input class="button" type="submit" value="Add Subscriber"/></p>
+                <p><input class="button" type="submit" value="Add Superhero"/></p>
             </form>
             ';
         return render_card($title, $body);
@@ -26,7 +26,7 @@
         foreach($superheroes as $row) {
             $title = $row['name'];
             $delete = "<a href='delete.php?id=$row[id]'>Delete Record</a>";
-            $photo = "<img src='images/$row[image]' alt='$row[image]'>"
+            $photo = "<img src='images/$row[image]' alt='$row[image]'>";
             $body = "
                 <table class='table table-hover'>
                     <tr><td>$photo</td></tr>
