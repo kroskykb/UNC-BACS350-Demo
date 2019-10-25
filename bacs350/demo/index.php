@@ -4,6 +4,7 @@
         Create page content by rendering a template.
     */
 
+
     $site_title = 'UNC BACS 350';
     
     $page_title = "Mark's Demos";
@@ -104,3 +105,4 @@
     echo render_page($site_title, $page_title, $content);
 
 ?>
+
