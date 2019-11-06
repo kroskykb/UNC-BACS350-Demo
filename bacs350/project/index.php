@@ -10,7 +10,7 @@
     
     $content = '
         <p>
-            <a href="..">Home</a>
+            <a href="..">Brain</a>
         </p>
         <p> 
             Projects in BACS 350.
@@ -28,6 +28,18 @@
             </li>
             <li>
                 <a href="../planner">Project #4 - Markdown Docs - Project Planner</a>
+            </li>
+            <li>
+                <a href="../superhero">Project #7 - Superhero Database</a>
+            </li> 
+            <li>
+                <a href="../notes">Project #8 - Notes Database</a>
+            </li> 
+            <li>
+                <a href="../review">Project #9 - Review Manager App</a>
+            </li> 
+            <li>
+                <a href="../slides">Project #11 - Slide Show App</a>
             </li>
         </ul>
     ';
